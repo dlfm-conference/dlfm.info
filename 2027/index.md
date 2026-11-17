@@ -10,7 +10,7 @@ title: "DLfM 2027"
 
 ## News
 
-- _Add news and updates here._
+The International Conference on Digital Libraries for Musicology 2027 is planned for Saturday the 11th of September 2027 in London, England. Updates and CFP will be released soon.
 
 ## About the conference
 
