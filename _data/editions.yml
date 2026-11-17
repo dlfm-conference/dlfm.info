@@ -11,6 +11,13 @@
 #               one or more of: call-for-papers, programme, proceedings,
 #               registration, venue, local
 
+- year: 2027
+  ordinal: "14th"
+  city: "London, UK"
+  dates: "11 September 2027"
+  proceedings_series: false
+  pages: [call-for-papers, programme]
+
 - year: 2026
   ordinal: "13th"
   city: "Thessaloniki, Greece"
