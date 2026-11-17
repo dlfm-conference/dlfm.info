@@ -34,9 +34,13 @@ You need two things:
 
 1. **A web browser.** That's the only software involved.
 2. **A GitHub account that has been added to the `dlfm-conference` organisation.**
-   If you can open this repository and see an **"Actions"** tab and a **pencil
-   (edit) icon** on files, you have the access you need. If not, ask the Steering
-   Committee to add you.
+   To check that you have the access you need, open any file and click the pencil:
+   - If an editor opens straight away, with a **"Commit changes…"** button, you
+     have the access you need.
+   - If GitHub instead offers to **"Fork this repository"**, you don't have access
+     yet. **Don't fork** — a fork is a separate copy under your own account, and
+     edits made there don't reach the live site. Ask the
+     Steering Committee to add you instead.
 
 
 ---
@@ -125,10 +129,11 @@ Replace `<year>` throughout with the actual four-digit year (e.g. `2027`).
    **"Run workflow"** button in the form.
 5. Wait ~30–60 seconds, then refresh. You'll see the run appear with a spinning
    amber dot, then a green tick ✓ when it's done.
-6. The Action has now opened a **Pull Request**. Go to the **"Pull requests"** tab —
-   your new proposed change is at the top.
-7. Open it, click **"Files changed"**, and check it looks right (each Action tells
-   you what to expect).
+6. The Action has now opened a **Pull Request**. Go to the **"Pull requests"** tab
+   at the top of the repository (next to "Code" and "Issues") — your new proposed
+   change is first in the list.
+7. Open it by clicking its title, then click the **"Files changed"** tab, and check
+   it looks right (each Action tells you what to expect).
 8. If it's good, click **"Merge pull request"** → **"Confirm merge"**. Then
    **"Delete branch"** to tidy up.
 9. If it's *not* right, click **"Close pull request"** — nothing goes live.
@@ -540,4 +545,4 @@ pins Jekyll 3.9).
   rather than a second copy of it, so a rollover cannot leave it out of date. The
   motif (`_includes/tacet-bar.html`) is a bar of music marked *tacet*, whose bass clef
   was traced out of the logo by `tools/trace_clef.py` — re-run that if the logo
-  is ever redrawn. 
+  is ever redrawn.
